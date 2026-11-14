@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EQUILIBRIA · Private Health — Manage your body like an asset</title>
+  <meta name="description" content="Private health content for high-net-worth individuals: cellular anti-aging, energy recovery, and a biological-age assessment. Real health isn't wellness — it's managing your body like an asset that compounds.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="EQUILIBRIA · Private Health">
+  <meta property="og:title" content="EQUILIBRIA · Private Health — Manage your body like an asset">
+  <meta property="og:description" content="Private health content for high-net-worth individuals: cellular anti-aging, energy recovery, and a biological-age assessment.">
+  <meta property="og:image" content="assets/img/hero.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="EQUILIBRIA · Private Health">
+  <meta name="twitter:description" content="Private health content for high-net-worth individuals.">
+  <meta name="twitter:image" content="assets/img/hero.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="brand">
+        <span class="brand__mark">EQUILIBRIA</span>
+        <span class="brand__sub">Private Health</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="method.html">Why it works</a></li>
+        <li><a href="index.html#articles">Articles</a></li>
+        <li><a href="quiz.html" class="nav__cta">Take the Assessment</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero hero--split">
+    <div class="hero__bg" aria-hidden="true">
+      <img src="assets/img/hero.jpg" alt="">
+    </div>
+    <div class="container hero__grid">
+      <div class="hero__lead">
+        <div class="eyebrow" data-reveal>Private Health · For the Few</div>
+        <h1 class="hero__title" data-reveal>Your “healthy lifestyle” may be making you <em>age faster</em>.</h1>
+        <p class="hero__sub" data-reveal>Ten questions. See how old your body really is — and what to do about it.</p>
+        <p class="hero__note" data-reveal>No email. No signup. Three minutes.</p>
+      </div>
+      <div class="hero__quiz" data-reveal>
+        <div class="quiz-card" id="quiz">
+          <div class="quiz-card__label">3-Minute Assessment</div>
+          <div class="quiz__age-row">
+            <label class="quiz__q-label" for="quiz-age" style="display:block;">Your age</label>
+            <input id="quiz-age" class="quiz__age-input" type="number" min="18" max="100" list="age-list" placeholder="Select or type">
+            <datalist id="age-list"></datalist>
+          </div>
+          <div class="quiz__progress">
+            <div class="quiz__progress-bar">
+              <div class="quiz__progress-fill" id="quiz-progress-fill"></div>
+            </div>
+            <span class="quiz__progress-count" id="quiz-progress-count">0 / 10</span>
+          </div>
+          <div id="quiz-question"></div>
+          <div id="quiz-result" class="result"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section section--tint statstrip">
+    <div class="container">
+      <div class="statstrip__grid">
+        <div class="stat">
+          <div class="stat__num">3</div>
+          <div class="stat__label">levers — strength, blood sugar, sleep</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">10</div>
+          <div class="stat__label">questions to estimate your biological age</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">3 min</div>
+          <div class="stat__label">from start to your result</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">8%</div>
+          <div class="stat__label">muscle lost every 8 years after 40</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container container--narrow">
+      <p class="lead-text" data-reveal>Here's the counterintuitive truth: many of the “healthy habits” you're keeping may be aging you faster. Aging isn't wrinkles or grey hair — it starts the year you turn forty, as muscle mass drops roughly 8% every eight years. Most people fight it in a way that actually accelerates it.</p>
+      <p class="lead-text" data-reveal>No wellness platitudes here. We focus on three things: three extra hours of clear-headed energy a day, looking five years younger than your peers, and moving against cellular aging after forty-five.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__label" data-reveal>What we do</div>
+      <h2 class="section__title" data-reveal>Treat your body like an asset</h2>
+      <p class="section__lede" data-reveal>No correct-sounding nonsense. Only the variables that change the outcome.</p>
+      <div class="grid grid--3">
+        <div class="card" data-reveal>
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26 4 8 27h11l-3 17 18-23H23l3-17Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="card__title">Three more hours of energy a day</h3>
+          <p class="card__text">Energy isn't slept into existence; it's trained. Most “tiredness” isn't a lack of sleep — it's a recovery system worn down by chronic stress.</p>
+        </div>
+        <div class="card" data-reveal>
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 4 41 14v20L24 44 7 34V14L24 4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="24" cy="24" r="7" stroke="currentColor" stroke-width="1.5"/><circle cx="24" cy="24" r="1.8" fill="currentColor"/></svg>
+          </div>
+          <h3 class="card__title">Look five years younger than your peers</h3>
+          <p class="card__text">The aging switch lives at the cellular level. Telomeres and mitochondria decide whether you age faster or slower than the people around you — not your skincare.</p>
+        </div>
+        <div class="card" data-reveal>
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40 24a16 16 0 1 1-4.2-10.8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M36 4v10H26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="card__title">Move against aging after forty-five</h3>
+          <p class="card__text">Strength first, then blood sugar, then sleep. In the right order, metabolism and energy come back. In the wrong order, you spin your wheels.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint" id="articles">
+    <div class="container">
+      <div class="section__label" data-reveal>Articles</div>
+      <h2 class="section__title" data-reveal>Start here</h2>
+      <div class="grid grid--2">
+      <a class="article-card" href="article-1.html" data-reveal>
+        <div class="article-card__tag">Cellular Aging</div>
+        <h3 class="article-card__title">Why, after forty-five, your rate of aging is decided by your cells</h3>
+        <p class="article-card__excerpt">Same age, two very different people — one sharp, one drained. The difference isn't skincare or genes. It's what your cells are doing.</p>
+        <span class="article-card__more">Read full article →</span>
+      </a>
+      <a class="article-card" href="article-2.html" data-reveal>
+        <div class="article-card__tag">Energy Recovery</div>
+        <h3 class="article-card__title">You're not tired because of a lack of sleep</h3>
+        <p class="article-card__excerpt">Still exhausted after eight hours? The problem isn't duration — it's recovery quality. A ten-minute, zero-cost method outperforms most bedtime routines.</p>
+        <span class="article-card__more">Read full article →</span>
+      </a>
+      <a class="article-card" href="article-3.html" data-reveal>
+        <div class="article-card__tag">Blood Sugar</div>
+        <h3 class="article-card__title">Sugar is aging you faster than time</h3>
+        <p class="article-card__excerpt">You think sugar is about weight. It's actually about how fast you age — and you don't have to be overweight for it to be happening.</p>
+        <span class="article-card__more">Read full article →</span>
+      </a>
+      <a class="article-card" href="article-4.html" data-reveal>
+        <div class="article-card__tag">Precision Prevention</div>
+        <h3 class="article-card__title">The checkup that actually matters</h3>
+        <p class="article-card__excerpt">Your annual physical feels thorough. It isn't. Here's what a routine panel doesn't measure.</p>
+        <span class="article-card__more">Read full article →</span>
+      </a>
+      <a class="article-card" href="article-5.html" data-reveal>
+        <div class="article-card__tag">Sleep</div>
+        <h3 class="article-card__title">Why you wake at 3am</h3>
+        <p class="article-card__excerpt">It's not insomnia. It's your body sending a signal — and most people misread it.</p>
+        <span class="article-card__more">Read full article →</span>
+      </a>
+      <a class="article-card" href="article-6.html" data-reveal>
+        <div class="article-card__tag">The Asset</div>
+        <h3 class="article-card__title">Manage your health like a balance sheet</h3>
+        <p class="article-card__excerpt">You already know how to read a company. Your body works the same way.</p>
+        <span class="article-card__more">Read full article →</span>
+      </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="report">
+    <div class="container container--narrow">
+      <div class="section__label" data-reveal>Private Report</div>
+      <h2 class="section__title" data-reveal>Get your full biological-age report</h2>
+      <p class="section__lede" data-reveal>Ten answers give you the score. The full report gives you the plan — and what to do next. Private. No spam.</p>
+      <form class="report-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" data-reveal>
+        <input type="text" name="name" placeholder="Your name" aria-label="Name" required>
+        <input type="email" name="email" placeholder="Email address" aria-label="Email" required>
+        <button type="submit" class="btn btn--primary">Apply for access</button>
+      </form>
+      <p class="report-note" data-reveal>No spam. Your data is private. Unsubscribe anytime.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="footer__brand">EQUILIBRIA · Private Health</div>
+        <p class="footer__note">Content on this site is for educational purposes only and does not constitute medical advice. Consult a licensed physician for any health concerns. Made for the few who truly value their body. <a href="method.html">The Method</a></p>
+      </div>
+      <div class="footer__copyright">© 2026 EQUILIBRIA · Private Health</div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+  <script src="assets/quiz.js"></script>
+</body>
+</html>

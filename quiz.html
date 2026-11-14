@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biological Age Assessment · EQUILIBRIA</title>
+  <meta name="description" content="Estimate your biological age in three minutes. Ten questions to see whether your body is younger — or older — than your actual age.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="brand">
+        <span class="brand__mark">EQUILIBRIA</span>
+        <span class="brand__sub">Private Health</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="method.html">Why it works</a></li>
+        <li><a href="index.html#articles">Articles</a></li>
+        <li><a href="quiz.html" class="nav__cta">Take the Assessment</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="quiz" id="quiz">
+    <div class="container container--narrow">
+
+      <div class="quiz__intro" data-reveal>
+        <div class="article-header__cover">
+          <img src="assets/img/quiz.jpg" alt="">
+        </div>
+        <div class="eyebrow">3-Minute Assessment</div>
+        <h1 class="hero__title" style="font-size: clamp(28px, 4vw, 42px);">How much older is your body than your actual age?</h1>
+        <p class="hero__sub">Ten questions. Answer honestly. Your total will tell you whether your body is younger — or older — than the years you've lived.</p>
+        <div class="ornament" aria-hidden="true"><span></span></div>
+      </div>
+
+      <div data-reveal style="margin-bottom: 28px;">
+        <label class="quiz__q-label" for="quiz-age" style="display:block;">Your age</label>
+        <input id="quiz-age" class="quiz__age-input" type="number" min="18" max="100" list="age-list" placeholder="Select or type">
+        <datalist id="age-list"></datalist>
+      </div>
+
+      <div class="quiz__progress" data-reveal>
+        <div class="quiz__progress-bar">
+          <div class="quiz__progress-fill" id="quiz-progress-fill"></div>
+        </div>
+        <span class="quiz__progress-count" id="quiz-progress-count">0 / 10</span>
+      </div>
+
+      <div id="quiz-question"></div>
+      <div id="quiz-result" class="result"></div>
+
+    </div>
+  </main>
+
+  <section class="section" id="report">
+    <div class="container container--narrow">
+      <div class="section__label" data-reveal>Private Report</div>
+      <h2 class="section__title" data-reveal>Get your full biological-age report</h2>
+      <p class="section__lede" data-reveal>Ten answers give you the score. The full report gives you the plan — and what to do next. Private. No spam.</p>
+      <form class="report-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" data-reveal>
+        <input type="text" name="name" placeholder="Your name" aria-label="Name" required>
+        <input type="email" name="email" placeholder="Email address" aria-label="Email" required>
+        <button type="submit" class="btn btn--primary">Apply for access</button>
+      </form>
+      <p class="report-note" data-reveal>No spam. Your data is private. Unsubscribe anytime.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="footer__brand">EQUILIBRIA · Private Health</div>
+        <p class="footer__note">Content on this site is for educational purposes only and does not constitute medical advice. Consult a licensed physician for any health concerns.</p>
+      </div>
+      <div class="footer__copyright">© 2026 EQUILIBRIA · Private Health</div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+  <script src="assets/quiz.js"></script>
+</body>
+</html>

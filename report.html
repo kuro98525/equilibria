@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biological-Age Report · EQUILIBRIA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+  <header class="article-header">
+    <div class="container container--narrow">
+      <div class="article-header__tag" data-reveal>Private &amp; Confidential</div>
+      <h1 class="article-header__title" data-reveal>Your Biological-Age Report</h1>
+      <p class="article-header__dek" data-reveal>Prepared for [Name] · [Date]</p>
+      <div class="ornament" aria-hidden="true" data-reveal><span></span></div>
+    </div>
+  </header>
+
+  <div class="article-body">
+    <div class="container container--narrow">
+
+      <h2 data-reveal>Your score</h2>
+      <p data-reveal>Biological age: <strong>[X] years</strong> · Actual age: [Y] years → your body is <strong>[younger / older by N years]</strong>.</p>
+
+      <h2 data-reveal>Your markers</h2>
+      <div class="markers" data-reveal>
+        <div class="marker">
+          <div class="marker__head"><span class="marker__name">Biological age</span><span class="marker__value">You [X] · Optimal [Y]</span></div>
+          <div class="marker__track"><div class="marker__zone" style="left:20%; right:15%;"></div><div class="marker__dot" style="left:58%;"></div></div>
+          <div class="marker__scale"><span>Younger</span><span>Older</span></div>
+        </div>
+        <div class="marker">
+          <div class="marker__head"><span class="marker__name">ApoB</span><span class="marker__value">You [X] mg/dL · Optimal &lt;80</span></div>
+          <div class="marker__track"><div class="marker__zone" style="left:0%; right:52%;"></div><div class="marker__dot" style="left:38%;"></div></div>
+          <div class="marker__scale"><span>Low</span><span>High</span></div>
+        </div>
+        <div class="marker">
+          <div class="marker__head"><span class="marker__name">HbA1c</span><span class="marker__value">You [X]% · Optimal &lt;5.4</span></div>
+          <div class="marker__track"><div class="marker__zone" style="left:0%; right:58%;"></div><div class="marker__dot" style="left:34%;"></div></div>
+          <div class="marker__scale"><span>Low</span><span>High</span></div>
+        </div>
+      </div>
+
+      <h2 data-reveal>The three levers</h2>
+      <ul>
+        <li data-reveal><strong>Strength</strong> — [status / priority]</li>
+        <li data-reveal><strong>Blood sugar</strong> — [status / priority]</li>
+        <li data-reveal><strong>Sleep</strong> — [status / priority]</li>
+      </ul>
+
+      <h2 data-reveal>Priority actions</h2>
+      <ul>
+        <li data-reveal>[Action 1]</li>
+        <li data-reveal>[Action 2]</li>
+        <li data-reveal>[Action 3]</li>
+      </ul>
+
+      <h2 data-reveal>Your next checkup</h2>
+      <p data-reveal>ApoB + Lp(a) · fasting insulin + HbA1c · hs-CRP · coronary calcium score · two weeks of continuous glucose data.</p>
+
+      <div class="callout" data-reveal>
+        <p>This report is educational, not medical advice. Consult your physician before acting on it.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="footer__brand">EQUILIBRIA · Private Health</div>
+        <p class="footer__note">Private &amp; confidential. For the recipient only.</p>
+      </div>
+      <div class="footer__copyright">© 2026 EQUILIBRIA · Private Health</div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
