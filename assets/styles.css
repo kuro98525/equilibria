@@ -187,9 +187,7 @@ img {
   padding: 88px 0 72px;
 }
 
-.hero__bg {
-  display: none;
-}
+
 
 .hero__grid {
   position: relative;
@@ -399,9 +397,7 @@ img {
   background: var(--bg-elev);
 }
 
-.article-header__cover {
-  display: none;
-}
+
 
 .article-header__tag {
   font-size: 13px;
