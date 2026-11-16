@@ -1003,6 +1003,15 @@ img {
   .related__grid {
     grid-template-columns: 1fr;
   }
+  .nav__links a:not(.nav__cta) {
+    display: none;
+  }
+  .nav__links {
+    gap: 0;
+  }
+  .brand__sub {
+    display: none;
+  }
 }
 
 /* Detail refinements */
